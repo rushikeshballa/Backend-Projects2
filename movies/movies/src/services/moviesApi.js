@@ -13,9 +13,12 @@ export const moviesApi = createApi({
       query: (titl) => `/movies/title/${titl}`,
     
     }),
+    getAllMovies: builder.query({
+      query: () => `/movies`,
+    }),
   }),
 })
 
 // Export hooks for usage in functional components, which are
 // auto-generated based on the defined endpoints
-export const { useGetMoviesQuery,useGetMoviesbytitleQuery } = moviesApi
+export const { useGetMoviesQuery,useGetMoviesbytitleQuery,useGetAllMoviesQuery } = moviesApi

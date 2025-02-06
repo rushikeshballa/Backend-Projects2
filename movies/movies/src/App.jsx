@@ -5,13 +5,13 @@ import NavBar from './features/navbar';
 
 
 function App() {
-  return(
+  return (
     <div>
-       <NavBar></NavBar> 
-       <Outlet></Outlet>
-       
+      <NavBar></NavBar>
+      <Outlet></Outlet>
+
     </div>
-  
+
   )
 }
 
