@@ -6,7 +6,7 @@ import NavBar from './features/navbar';
 
 function App() {
   return (
-    <div>
+    <div >
       <NavBar></NavBar>
       <Outlet></Outlet>
 
