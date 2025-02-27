@@ -12,7 +12,7 @@ import { Provider } from 'react-redux'
 import NavBar from './features/navbar';
 import Titles from './features/title';
 import Movies from './features/movies';
-
+import Movie from './features/movie';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +25,10 @@ const router = createBrowserRouter([
       },
       {path:"/home",
        element:<Movies></Movies>
+      },
+      {
+        path:"/movie",
+        element:<Movie></Movie>
       }
     ]
   },
