@@ -9,8 +9,6 @@ function App() {
     <div >
       <NavBar></NavBar>
       <Outlet></Outlet>
-
-
     </div>
 
   )
