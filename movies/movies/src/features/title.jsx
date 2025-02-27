@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from 'react';
 import { useGetMoviesbytitleQuery, useGetMoviesQuery } from "../services/moviesApi";
+import { Link } from "react-router-dom";
 
 function Titles() {
 
@@ -10,7 +11,9 @@ function Titles() {
       {
         data?.map((mov) => {
           return (
+            <Link to={`/movie/${mov}`} style={{all:"unset"}}>
             <div>{mov}</div>
+            </Link>
           )
         })
       }
