@@ -11,7 +11,6 @@ const Movies = (() => {
     return (
         <div className="row row-cols-1 row-cols-md-3 g-3 mx-2 p-4 d-flex justify-content-around">
             
-            
             {
                 data?.map((movie) => {
                     return <Link to={`/movie/${movie.Title}`} style={{all:"unset"}}>
