@@ -15,7 +15,6 @@ const Movie = (() => {
                     <div className="p-4">
                         <h1>{data?.Title}</h1>
                         <h4>Genre :- {data?.Genre}</h4>
-                        
                         <div>
                             {/* <div><h4> Ratings :</h4> */}
                             {
