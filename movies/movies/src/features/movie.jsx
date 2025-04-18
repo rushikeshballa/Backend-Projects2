@@ -7,8 +7,7 @@ const Movie = (() => {
     var { isloding, data } = useGetMoviesbytitleQuery(x.name)
     console.log(data)
     if (data) {
-        return (
-            
+        return (  
             <div className="p-4">
                 {/* top part */}
                 <div className="d-flex justify-content-around ">
