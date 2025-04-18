@@ -8,6 +8,7 @@ const Movie = (() => {
     console.log(data)
     if (data) {
         return (
+            
             <div className="p-4">
                 {/* top part */}
                 <div className="d-flex justify-content-around ">
