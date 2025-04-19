@@ -35,8 +35,7 @@ const Movie = (() => {
                             </h6>
                         </div>
                         }
-                    </div>
-                    
+                    </div>  
                 </div>
                 {/* bottom part */}
                 <div className="p-5">
