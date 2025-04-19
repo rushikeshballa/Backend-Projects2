@@ -36,6 +36,7 @@ const Movie = (() => {
                         </div>
                         }
                     </div>
+                    
                 </div>
                 {/* bottom part */}
                 <div className="p-5">
