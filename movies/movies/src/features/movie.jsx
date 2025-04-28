@@ -36,8 +36,7 @@ const Movie = (() => {
                         </div>
                         }
                     </div>  
-                </div>        
-                                                      
+                </div>                                                              
                 {/* bottom part */}
                 <div className="p-5">
                     <h4>Director :- {data?.Director}</h4>
