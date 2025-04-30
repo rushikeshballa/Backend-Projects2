@@ -25,7 +25,7 @@ const Movie = (() => {
                                     </div>
                                 })
                             }
-                        </div>
+                        </div
                         
                         <br />
                         {<div>
