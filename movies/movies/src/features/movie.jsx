@@ -26,6 +26,7 @@ const Movie = (() => {
                                 })
                             }
                         </div>
+                        
                         <br />
                         {<div>
                             <h4>About the movie :-</h4>
